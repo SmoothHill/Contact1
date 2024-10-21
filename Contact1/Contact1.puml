@@ -1,0 +1,13 @@
+@startuml
+class ContactClient {
+- {static} String URL
+- {static} String USER
+- {static} String PASSWORD
++ {static} void main(String[])
+- {static} void executeCommand(Connection,String)
+- {static} void addContact(Connection,String[])
+- {static} void modifyContact(Connection,String[])
+- {static} void deleteContact(Connection,String[])
+- {static} void viewContacts(Connection)
+}
+@enduml
